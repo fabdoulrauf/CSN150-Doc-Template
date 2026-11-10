@@ -23,7 +23,14 @@ Set up ESP32 and Arduino enviornment. Execute sketch " Wifiscanner".
 1. Install Arduino IDE 2.3.10
 2. Connect camera and install all necessary drivers.
 3. Added the ESP32 board to Arduino IDE by going to file>preferences>additional boards manager URLs and pasted "https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json" in the box and clicked OK.
-4. 
+4. Moved to the board icon on the left side and clicked it. The board manager opened and i typed "esp32" in the search bar. Selected the entry "esp32 by Espressif Systems" and  clicked on install and waited till it finished installing.
+5. Clicked on the dropdown menu at the top and select the “Select Other Board and Port” entry. In the search bar i typed esp32 and clicked the search icon.
+6. Clicked on the AI thinker esp32 CAM and clicked the COM5
+7. To make sure everything is sset is perfectly, i tested using the classic blink example.
+8. Moved to file>example>basics>blinks
+9. In the code, i replaced the 'LedPin' to 4.
+10. After ruuning it, the led started blinking.
+11. 
 ## Problems and Solutions
 Note your problems or errors here.  Google any error you may come across, and not what you tried (even if it does not work), and what was the final answer. Document your errors and solutions that worked for you.  
 
