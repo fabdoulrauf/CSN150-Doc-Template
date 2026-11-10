@@ -22,7 +22,8 @@ Set up ESP32 and Arduino enviornment. Execute sketch " Wifiscanner".
 1. Write the steps you followed here.  This way you can keep track of where you might have messed up if the project does not work. 
 1. Install Arduino IDE 2.3.10
 2. Connect camera and install all necessary drivers.
-3. Added 
+3. Added the ESP32 board to Arduino IDE by going to file>preferences>additional boards manager URLs and pasted "https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json" in the box and clicked OK.
+4. 
 ## Problems and Solutions
 Note your problems or errors here.  Google any error you may come across, and not what you tried (even if it does not work), and what was the final answer. Document your errors and solutions that worked for you.  
 
