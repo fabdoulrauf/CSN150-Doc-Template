@@ -1,5 +1,5 @@
 # Cybersecurity : CSN150
-Project: ESP32 XXXXXXXX
+Project: ESP32 XXXXXXXX (FOAD)
 
 ## Purpose
 Set up ESP32 and Arduino enviornment. Execute sketch " Wifiscanner". 
@@ -14,12 +14,15 @@ Set up ESP32 and Arduino enviornment. Execute sketch " Wifiscanner".
 ##### Video 1: 
 
 ##### Other Links: 
-
+ https://www.arduino.cc/en/software/
+ 
 ##### AI GPTs used
 
 ## Steps I followed
 1. Write the steps you followed here.  This way you can keep track of where you might have messed up if the project does not work. 
-
+1. Install Arduino IDE 2.3.10
+2. Connect camera and install all necessary drivers.
+3. Added 
 ## Problems and Solutions
 Note your problems or errors here.  Google any error you may come across, and not what you tried (even if it does not work), and what was the final answer. Document your errors and solutions that worked for you.  
 
