@@ -32,7 +32,6 @@ Problem:
 compilation error: "Wifi" was not declared in this scope; did you mean "WIFI" 
 Solution
 I changed the the 'f' in Wifi  to 'F' and the code was uploaded successfully
-Example Problem
-Problem: Arduino code will not load on ESP32 Cam. Solution: Camera drivers were incorrect I needed to install the driver: https://www.wch-ic.com/downloads/CH341SER_ZIP.html. I used file, "CH341SER.ZIP" and it worked.
+
 
 Final Report
