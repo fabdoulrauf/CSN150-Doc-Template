@@ -26,12 +26,12 @@ while (WiFi.status() != WL_CONNECTED) {
 }
 Serial.println("");
 Serial.println("WiFi connected");"
-6. And added "Wifi.softAP(ssid, password);" to set the ESP32 as an accesss point.
+6. And added "WiFi.softAP(ssid, password);" to set the ESP32 as an accesss point.
 Problems and Solutions
-Note your problems or errors here. Google any error you may come across, and not what you tried (even if it does not work), and what was the final answer. Document your errors and solutions that worked for you.
-
-Problem: E (485) camera: Camera probe failed with error 0x105(ESP_ERR_NOT_FOUND) Camera init failed with error 0x105 Solution:
-
+Problem:
+compilation error: "Wifi" was not declared in this scope; did you mean "WIFI" 
+Solution
+I changed the the 'f' in Wifi  to 'F' and the code was uploaded successfully
 Example Problem
 Problem: Arduino code will not load on ESP32 Cam. Solution: Camera drivers were incorrect I needed to install the driver: https://www.wch-ic.com/downloads/CH341SER_ZIP.html. I used file, "CH341SER.ZIP" and it worked.
 
