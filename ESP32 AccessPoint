@@ -15,7 +15,11 @@ Video 1:
 Other Links:
 AI GPTs used
 Steps I followed
-1. Went to File > Examples > ESP32 > Camera > CameraWebServer.
+1.Clicked on the dropdown menu at the top and selected the “Select other Board and Port” entry. In the search bar i typed esp32 and clicked the search icon.
+2.Clicked on the AI thinker esp32 CAM and clicked the COM5 port.
+3.Went to File > Examples > ESP32 > Camera > CameraWebServer.
+4. Set the SSID in the code to "ESP32-CAM Access Point" and Paswword to "123456789"
+5.
 Problems and Solutions
 Note your problems or errors here. Google any error you may come across, and not what you tried (even if it does not work), and what was the final answer. Document your errors and solutions that worked for you.
 
