@@ -2,7 +2,7 @@ Cybersecurity : CSN150
 Project: ESP32 XXXXXXXX
 
 Purpose
-Set up ESP32 and Arduino enviornment. Execute sketch " Wifiscanner".
+Set up ESP32 as an Access Point(AP) for web server.his way, you don’t need to be connected to a router to access the web server
 
 Equipment
 ESP32Cam
@@ -19,7 +19,14 @@ Steps I followed
 2.Clicked on the AI thinker esp32 CAM and clicked the COM5 port.
 3.Went to File > Examples > ESP32 > Camera > CameraWebServer.
 4. Set the SSID in the code to "ESP32-CAM Access Point" and Paswword to "123456789"
-5.
+5.i cleared this from the code "WiFi.begin(ssid, password);
+while (WiFi.status() != WL_CONNECTED) {
+  delay(500);
+  Serial.print(".");
+}
+Serial.println("");
+Serial.println("WiFi connected");"
+6. And added "Wifi.softAP(ssid, password);" to set the ESP32 as an accesss point.
 Problems and Solutions
 Note your problems or errors here. Google any error you may come across, and not what you tried (even if it does not work), and what was the final answer. Document your errors and solutions that worked for you.
 
