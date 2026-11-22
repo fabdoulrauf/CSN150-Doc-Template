@@ -2,7 +2,7 @@ Cybersecurity : CSN150
 Project: ESP32 XXXXXXXX
 
 Purpose
-Set up ESP32 as an Access Point(AP) for web server.his way, you don’t need to be connected to a router to access the web server
+Set up ESP32 as an Access Point(AP) for web server. This way, you don’t need to be connected to a router to access the web server
 
 AI Used
 Google ai
@@ -42,5 +42,5 @@ Camera init failed with error 0x106
 Solution
 1.I changed the the 'f' in Wifi  to 'F' and the code was uploaded successfully
 
-2.Checked board_config.h and commented CAMERA_MODEL_ESP_EYE and decommented CAMERA_MODEL_ESP32_CAM_BOARD
-Final Report
+2.Checked board_config.h and commented CAMERA_MODEL_ESP_EYE and decommented CAMERA_MODEL_AI_THINKER
+
