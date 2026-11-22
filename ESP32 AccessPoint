@@ -34,6 +34,10 @@ while (WiFi.status() != WL_CONNECTED) {
 Serial.println("");
 Serial.println("WiFi connected");"
 6. And added "WiFi.softAP(ssid, password);" to set the ESP32 as an accesss point.
+7. In my smartphone i opened my Wi-Fi settings and tap the ESP32-CAM Access Point network and put in the password; 123456789
+8.Opened my web browser and typeed the IP address 192.168.4.1. The video streaming web server  loaded and started  streaming
+
+
 Problems and Solutions
 Problem:
 1.compilation error: "Wifi" was not declared in this scope; did you mean "WIFI" 
