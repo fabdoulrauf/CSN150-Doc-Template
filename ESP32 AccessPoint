@@ -4,6 +4,8 @@ Project: ESP32 XXXXXXXX
 Purpose
 Set up ESP32 as an Access Point(AP) for web server.his way, you don’t need to be connected to a router to access the web server
 
+AI Used
+Google ai
 Equipment
 ESP32Cam
 
@@ -29,9 +31,16 @@ Serial.println("WiFi connected");"
 6. And added "WiFi.softAP(ssid, password);" to set the ESP32 as an accesss point.
 Problems and Solutions
 Problem:
-compilation error: "Wifi" was not declared in this scope; did you mean "WIFI" 
+1.compilation error: "Wifi" was not declared in this scope; did you mean "WIFI" 
+
+
+2. entry 0x400805b4
+E (35) camera: Detected camera not supported.
+E (35) camera: Camera probe failed with error 0x106(ESP_ERR_NOT_SUPPORTED)
+Camera init failed with error 0x106
+
 Solution
-I changed the the 'f' in Wifi  to 'F' and the code was uploaded successfully
+1.I changed the the 'f' in Wifi  to 'F' and the code was uploaded successfully
 
-
+2.Checked board_config.h and commented CAMERA_MODEL_ESP_EYE and decommented CAMERA_MODEL_ESP32_CAM_BOARD
 Final Report
